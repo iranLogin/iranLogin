@@ -1,0 +1,17 @@
+name: iranLogin
+version: 1.0.0
+main: ir.iranSmp.iranLogin
+api-version: '1.21'
+author: iranSmp
+description: Login and registration plugin for iranSmp
+
+commands:
+  register:
+    description: Register your account
+    usage: /register <password> <password>
+  login:
+    description: Login to your account
+    usage: /login <password>
+  iranlogin:
+    description: iranLogin plugin information
+    usage: /iranlogin
